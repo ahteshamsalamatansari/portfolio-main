@@ -1,0 +1,347 @@
+import { Icons } from "@/components/icons";
+import { HomeIcon, NotebookIcon } from "lucide-react";
+
+export const DATA = {
+  name: "Ahtesham Salamat Ansari",
+  initials: "ASA",
+  url: "https://www.linkedin.com/in/ahteshamsalamatansari",
+  location: "Burhanpur, Madhya Pradesh, India",
+  locationLink: "https://www.google.com/maps/place/burhanpur+madhya+pradesh",
+  description:
+    "Technical Solutions Architect specializing in AI/ML Systems, Data Pipeline Design, and Generative AI. Passionate about democratizing AI adoption and helping organizations unlock the potential of their data.",
+  summary:
+    "As a Technical Solutions Architect specializing in Data Systems, my expertise spans the complete machine learning lifecycle, from data pipeline architecture to generative AI implementation and model deployment at scale. With 4+ years of experience in data research and quality assurance, I've successfully architected ML training pipelines processing 50M+ data points daily with 99.9% uptime, reduced model inference latency by 65%, and implemented automated MLOps workflows. My analytical foundation, combined with hands-on experience in competitive intelligence and B2B analytics, provides me with a unique perspective on designing AI systems that deliver measurable business value.",
+  avatarUrl: "/me.jpeg",
+  skills: [
+    "Python",
+    "SQL", 
+    "R",
+    "Java",
+    "Scala",
+    "TensorFlow",
+    "PyTorch",
+    "Scikit-learn",
+    "Hugging Face",
+    "OpenAI API",
+    "LangChain",
+    "AWS",
+    "Azure ML",
+    "GCP",
+    "Kubernetes",
+    "Docker",
+    "Apache Spark",
+    "Kafka",
+    "Airflow",
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "MLflow",
+    "Pandas"
+  ],
+  navbar: [
+    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
+  ],
+  contact: {
+    email: "AhteshamSalamat@yahoo.com",
+    tel: "+917415995966",
+    social: {
+      GitHub: {
+        name: "GitHub",
+        url: "https://github.com/ahteshamsalamatansari",
+        icon: Icons.github,
+        navbar: true,
+      },
+      LinkedIn: {
+        name: "LinkedIn",
+        url: "https://www.linkedin.com/in/ahteshamsalamatansari",
+        icon: Icons.linkedin,
+        navbar: true,
+      },
+      X: {
+        name: "X",
+        url: "https://x.com/ahteshamsalamat",
+        icon: Icons.x,
+        navbar: true,
+      },
+      Youtube: {
+        name: "Youtube",
+        url: "https://youtube.com/@ahteshamsalamatansari",
+        icon: Icons.youtube,
+        navbar: true,
+      },
+      email: {
+        name: "Send Email",
+        url: "mailto:AhteshamSalamat@yahoo.com",
+        icon: Icons.email,
+        navbar: false,
+      },
+    },
+  },
+
+  work: [
+    {
+      company: "BizProspex",
+      href: "https://bizprospex.com",
+      badges: [],
+      location: "Burhanpur, Madhya Pradesh, India",
+      title: "Technical Solutions Architect, Data Systems",
+      logoUrl: "/BizProspex-logo.webp",
+      start: "August 2025",
+      end: "Present",
+      description:
+        "Architected and deployed scalable AI/ML training pipelines processing 50M+ data points daily, achieving 99.9% uptime and reducing training time by 40%. Built generative AI solutions using LLMs and custom models, improving lead qualification accuracy by 35% and supporting 10k+ daily API calls. Designed real-time data streaming architecture with Apache Kafka and Spark, enabling sub-second analytics for competitive intelligence workflows.",
+    },
+    {
+      company: "BizProspex",
+      href: "https://bizprospex.com",
+      badges: [],
+      location: "Burhanpur, Madhya Pradesh, India",
+      title: "Competitive Intelligence Specialist",
+      logoUrl: "/BizProspex-logo.webp",
+      start: "February 2025",
+      end: "August 2025",
+      description:
+        "Conducted deep-dive competitive research and market analysis to uncover actionable B2B insights. Leveraged tools like LinkedIn Sales Navigator, Salesforce, and HubSpot CRM for data-driven prospecting. Created detailed competitor profiles to support sales and marketing in go-to-market (GTM) strategies. Applied quality assurance (QA) and data integrity protocols to maintain high data accuracy.",
+    },
+    {
+      company: "BizProspex",
+      href: "https://bizprospex.com",
+      badges: [],
+      location: "Burhanpur, Madhya Pradesh, India",
+      title: "Data Services Consultant",
+      logoUrl: "/BizProspex-logo.webp",
+      start: "February 2025",
+      end: "August 2025",
+      description:
+        "Provided data enrichment, validation, and cleansing services tailored to B2B market needs. Automated high-quality prospect lists through contact discovery. Managed client relationships and ensured on-time, high-quality data delivery. Worked with sales teams to create custom datasets that boosted lead quality and ROI. Adhered to data privacy regulations including GDPR and CCPA.",
+    },
+    {
+      company: "FunnelByte",
+      href: "https://funnelbyte.com",
+      badges: [],
+      location: "India",
+      title: "Project Leader & Quality Analyst",
+      logoUrl: "/fblogo.png",
+      start: "November 2022",
+      end: "February 2025",
+      description:
+        "Focused on designing/creating plans and ensuring quality requirements adhere to organization's policies. Responsible for implementing plans with error fixes and ensuring performance, reliability, functionality, and compatibility. Collected essential statistics and identified root cause analysis methods for problem identification. Reduced employee attrition rates and provided knowledge transfer to new joiners.",
+    },
+    {
+      company: "FunnelByte",
+      href: "https://funnelbyte.com",
+      badges: [],
+      location: "India",
+      title: "Senior Data Research Executive",
+      logoUrl: "/fblogo.png",
+      start: "March 2022",
+      end: "November 2022",
+      description:
+        "Supervised, planned, coordinated, and conducted research and program evaluation activities. Worked with evaluators on data collection and quantitative/qualitative analysis duties. Coordinated data requests for evidence-based and data-informed policy. Carried out business analysis, data modelling, logical and physical database design, and database optimization.",
+    },
+    {
+      company: "FunnelByte",
+      href: "https://funnelbyte.com",
+      badges: [],
+      location: "India",
+      title: "Data Research Executive",
+      logoUrl: "/fblogo.png",
+      start: "June 2021",
+      end: "March 2022",
+      description:
+        "Led data mining and collection procedures through various sources. Ensured data quality and integrity. Interpreted and analyzed data problems. Conceived, planned and prioritized data projects. Built analytic systems and predictive models. Tested performance of data-driven products and visualized data to create reports.",
+    },
+    {
+      company: "MPOnline Limited",
+      href: "https://mponline.gov.in",
+      badges: [],
+      location: "Burhanpur, Madhya Pradesh, India",
+      title: "Kiosk Operator",
+      logoUrl: "/mponline.png",
+      start: "October 2019",
+      end: "March 2021",
+      description:
+        "Provided online services and bank correspondence. Conducted student seminars for government vacancies. Successfully enrolled 20k+ local citizens for Aayushman Bharat Yojana. Delivered various government services to citizens through digital kiosk operations.",
+    },
+  ],
+  education: [
+    {
+      school: "Devi Ahilya Vishwavidyalaya (DAVV), Indore",
+      href: "https://www.dauniv.ac.in",
+      degree: "Bachelor of Business Administration - BBA, HONS",
+      logoUrl: "/davv.png",
+      start: "2019",
+      end: "2022",
+    },
+    {
+      school: "St. Theresa Sr. Sec. School, Burhanpur",
+      href: "https://sttheresaburhanpur.com",
+      degree: "10+2, Higher Secondary",
+      logoUrl: "/sttheresa.png",
+      start: "2016",
+      end: "2019",
+    },
+  ],
+  projects: [
+    {
+      title: "AI/ML Training Pipeline Architecture",
+      href: "#",
+      dates: "Aug 2025 - Present",
+      active: true,
+      description:
+        "Architected and deployed scalable AI/ML training pipelines processing 50M+ data points daily with 99.9% uptime. Reduced training time by 40% through optimized architecture design and implemented automated MLOps workflows.",
+      technologies: [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "Apache Spark",
+        "Kubernetes",
+        "Docker",
+        "AWS",
+        "MLflow",
+        "Apache Kafka",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Generative AI Solutions Platform",
+      href: "#",
+      dates: "Feb 2025 - Aug 2025",
+      active: true,
+      description:
+        "Built production-ready generative AI solutions using LLMs and custom models. Improved lead qualification accuracy by 35% and supported 10k+ daily API calls through optimized inference pipelines.",
+      technologies: [
+        "OpenAI API",
+        "LangChain",
+        "Hugging Face",
+        "Python",
+        "FastAPI",
+        "Redis",
+        "PostgreSQL",
+        "Docker",
+        "AWS Lambda",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "Real-time Data Streaming Architecture",
+      href: "#",
+      dates: "Aug 2025 - Present",
+      active: true,
+      description:
+        "Designed real-time data streaming architecture with Apache Kafka and Spark, enabling sub-second analytics for competitive intelligence workflows. Implemented GDPR and CCPA compliant data processing systems.",
+      technologies: [
+        "Apache Kafka",
+        "Apache Spark",
+        "Python",
+        "Scala",
+        "Airflow",
+        "Snowflake",
+        "Databricks",
+        "Prometheus",
+        "Grafana",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
+      title: "B2B Competitive Intelligence Platform",
+      href: "#",
+      dates: "Feb 2025 - Aug 2025",
+      active: false,
+      description:
+        "Developed comprehensive competitive intelligence platform using LinkedIn Sales Navigator, Salesforce, and HubSpot CRM. Created automated prospect discovery and data enrichment pipelines supporting ABM campaigns.",
+      technologies: [
+        "Python",
+        "Pandas",
+        "Salesforce API",
+        "HubSpot API",
+        "LinkedIn API",
+        "PostgreSQL",
+        "Redis",
+        "FastAPI",
+        "React",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "#",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+  ],
+  hackathons: [
+    {
+      title: "AI/ML Innovation Summit",
+      dates: "March 2025",
+      location: "Mumbai, India",
+      description:
+        "Developed an innovative AI solution for automated data quality assessment using machine learning techniques.",
+      image: "/ai-summit.png",
+      links: [],
+    },
+    {
+      title: "Data Science Challenge",
+      dates: "December 2024",
+      location: "Bangalore, India", 
+      description:
+        "Built predictive models for B2B lead scoring using advanced machine learning algorithms and feature engineering.",
+      image: "/data-challenge.png",
+      links: [],
+    },
+    {
+      title: "Tech Innovation Hackathon",
+      dates: "September 2024",
+      location: "Indore, India",
+      description:
+        "Created a real-time data processing pipeline for competitive intelligence using Apache Kafka and Spark streaming.",
+      image: "/tech-hackathon.png",
+      links: [],
+    },
+    {
+      title: "Digital Transformation Workshop",
+      dates: "June 2024",
+      location: "Pune, India",
+      description:
+        "Designed automated MLOps workflow for model deployment and monitoring in production environments.",
+      image: "/digital-workshop.png",
+      links: [],
+    },
+    {
+      title: "Data Quality Excellence Program",
+      dates: "March 2024",
+      location: "Hyderabad, India",
+      description:
+        "Implemented comprehensive data validation and cleansing framework for enterprise data systems.",
+      image: "/data-quality.png",
+      links: [],
+    },
+  ],
+} as const;
